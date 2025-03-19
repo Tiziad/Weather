@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #a0e7e5, #b4f8c8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #636AE8;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(99, 106, 232, 0.4);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #4850E4;
+  box-shadow: 0 4px 12px rgba(72, 80, 228, 0.6);
+}
+
+button:active {
+  background-color: #2C35E0;
+  box-shadow: none;
+}
+
+.weather-info {
+  background-color: white;
+  padding: 4px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 100%; 
+  box-sizing: border-box;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#weather-icon {
+  width: 30%; 
+  height: auto; 
+  display: block; 
+  margin: 5px auto;  
+}
+.weather-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.weather-info p {
+  font-size: 18px;
+  color: #555;
+  margin: 5px 0;
+}
+
+#temperature {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+#location {
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+
+.info-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  gap: 8px;
+  color: #555;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.value-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.value-label p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.info-label {
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+  text-align: center;
+}

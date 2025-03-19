@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's the weather like? - Find out the weather in your city</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Today</h1>
+        <p id="date"></p>
+        <div class="input-group">
+            <input type="text" id="input" placeholder="Enter a city name" />
+            <button id="button">Search</button>
+        </div>
+    
+        <div class="weather-info" id="weather-info" style="display: none;">
+            <img id="weather-icon" src="" alt="Weather Icon" style="display: none;" />
+            <p id="temperature"></p>
+            <h2 id="location"></h2>
+            <p id="description"></p>
+        
+ 
+ <div class="info-row">
+    <div class="info-item">
+        <img src="humidity.svg" alt="humidity" class="icon">
+        <div class="value-label">
+            <p id="humidity"></p>
+            <span class="info-label">Humidity</span>
+        </div>
+    </div>
+    <div class="info-item">
+        <img src="wind.svg" alt="wind speed" class="icon">
+        <div class="value-label">
+            <p id="wind"></p>
+            <span class="info-label">Wind Speed</span>
+        </div>
+    </div>
+</div>
+</div>
+    <script src="script.js" defer></script>
+</body>
+</html>
